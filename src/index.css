@@ -19,6 +19,7 @@ code {
 }
 
 .Box{
+  margin-top:45px;
     width: 630px;
     height: 215px;
     background-color: rgb(31, 31, 100);
