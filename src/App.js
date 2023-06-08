@@ -68,6 +68,9 @@ function Box(){
     {items.map((item) => {
       const handleRemoveClick = () => {
         setItems(items => items.filter((entry) => entry !== item));
+	        if(items.length===1 ){
+          setIsShown(false);
+        }
       };
       return (
         <>
